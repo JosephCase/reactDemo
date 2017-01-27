@@ -1,0 +1,35 @@
+@import '../../../styles/reset';
+@import '../../../fonts/oswald';
+@import 'vars';
+
+body {
+	background: #e5e5e5;
+}
+
+p, h1, h2, h3, h4, h5, a {
+	font-family: 'Oswald',sans-serif;
+}
+
+
+:global .button {
+	text-decoration: none;
+    background: $brand-color;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+	cursor: pointer;
+    line-height: 14px;
+    font-size: 16px;
+    padding: 10px 20px;
+    &:hover {
+    	background: #F25F3D;
+    }
+}
+
+:global .textInput {
+	border: 1px solid #efefef;
+    background: #efefef;
+    font-size: 16px;
+    padding: 9px;
+    border-radius: 4px;
+}

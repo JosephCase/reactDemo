@@ -1,0 +1,28 @@
+@import '../vars';
+
+.component {
+	background: #fff;
+	&>div {
+		margin: auto;
+		width: 980px;
+		max-width: 100%;
+		padding: 20px 20px 40px;
+		h3 {
+			text-transform: uppercase;
+		    font-size: 21px;
+		    line-height: 26px;
+		    margin: 20px 0;
+		}
+		input {
+			float: left;
+			width: 32%;
+			margin-right: 20px;
+		}
+		button {
+			float: right;
+			height: 43px;
+			width: 14.5%;
+			font-weight: 600;
+		}
+	}
+}

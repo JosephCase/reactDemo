@@ -1,0 +1,28 @@
+@import '../vars';
+
+.component {
+	composes: component from './SearchBar.scss';
+	background: $lightgrey;
+	padding: 20px 2%;
+	width: 100%;
+	float: none;
+    h3 {
+		display: none;
+    }
+    input {
+		width: 32%;
+    }
+    button {
+    	float: right;
+		font-size: 1.0em;
+		height: 37px;
+		width: 16%;
+		background: $brand-color;
+		font-weight: 700;
+		border-radius: 4px;
+		color: #000;
+	    &:hover {
+	    	background: $brand-color-dark;
+	    }
+    }
+}

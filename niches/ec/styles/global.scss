@@ -1,0 +1,21 @@
+@import '../../../styles/reset';
+@import '../../../fonts/open-sans';
+
+body {
+	background: #fff;
+}
+
+p, h1, h2, h3, h4, h5, a {
+	font-family: 'Open Sans',sans-serif;
+}
+
+button {
+	cursor: pointer;
+}
+
+:global .textInput {
+    border: none;
+    padding: 11px 5px 11px 10px;
+    color: #999;
+    font-size: 14px;
+}

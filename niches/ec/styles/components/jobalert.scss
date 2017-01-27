@@ -1,0 +1,57 @@
+@import '../vars.scss';
+
+.component {
+    background: #e3e3e3;
+    width: 193px;
+    height: 233px;
+    margin-left: 20px;
+    padding: 16px 0 27px 17px;
+    box-sizing: content-box;
+    float: left;
+    h3 {
+        font-size: 18px;
+        line-height: 18px;
+        padding-bottom: 5px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    p:first-of-type {
+        padding: 15px 35px 10px 1px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    input {
+        width: 158px;
+        height: 22px;
+        border: 2px solid #e7e7e7;
+        font-size: 12px;
+        color: #666;
+        padding: 7px 5px;
+    }
+    button {
+    	border: none;
+    	-webkit-appearance: none;
+        padding: 8px 0 7px;
+        background: $brand-color;
+        color: #000;
+        font-size: 14px;
+        font-weight: 700;
+        width: 120px;
+        height: 35px;
+        cursor: pointer;
+        &:hover {
+        	background: $brand-color-dark;
+        }
+    }
+    p:last-of-type {
+		padding: 15px 35px 10px 1px;
+		font-size: 14px;
+		line-height: 16px;
+		font-weight: 600;
+		text-decoration: underline;
+		cursor: pointer;
+		&:hover {
+			text-decoration: none;
+		}
+    }
+}
